@@ -1,0 +1,78 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tournament App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="content">
+            <div class="main-screen">
+                <div class="main-screen__logo">
+                    <img src="img/atira-logo.png" alt="">
+                </div>
+                <form class="main-screen__form" name="search">
+                    <input type="text" name="key" class="form-input"></input>
+                    <input type="submit" name="send" class="form-button form-button_add" onclick="addnewParticipant()" value="Отправить" />
+                    <input type="submit" name="delete" class="form-button form-button_remove" onclick="removeParticipant()" value="Удалить игрока" />
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="js/data.js"></script>
+    <script src="js/FightObj.js"></script> -->
+     <script src="js/ObPerson.js"></script> 
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tournament App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="content">
+            <div class="main-screen">
+                <div class="main-screen__logo">
+                    <img src="img/atira-logo.png" alt="">
+                </div>
+                <form method="post" class="main-screen__form" name="search">
+                    <input type="text" name="key" class="form-input"></input>
+                    <input type="submit" name="send" class="form-button form-button_add" onclick="addnewParticipant()" value="Отправить" />
+                    <input type="submit" name="delete" class="form-button form-button_remove" onclick="removeParticipant()" value="Удалить игрока" />
+                </form>
+                <table class="table">
+                    <caption>Бойцы турнира Atira Ruthenia "Batalia de Ruthenia"</caption>
+                    <thead>
+                        <tr>
+                            <th>Номер</th>
+                            <th>Имя бойца</th>
+                        </tr>
+                    </thead>
+                    <tbody class="main-screen__participants">
+
+                    </tbody> 
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/sam.js"></script>
+    <!-- <script src="js/data.js"></script>
+    <script src="js/FightObj.js"></script> -->
+    <!-- <script src="js/ObPerson.js"></script> -->
+</body>
+>>>>>>> e7cfc1efc255fda06d71917acb857a28acddf764
+</html>
